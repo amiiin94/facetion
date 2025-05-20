@@ -1,7 +1,8 @@
 streamlit
 pandas
-numpy
+numpy<2.0
 opencv-python
 mtcnn
 keras-facenet
-tensorflow>=2.12
+tensorflow==2.12.0
+keras==2.12.0
