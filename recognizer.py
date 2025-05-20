@@ -4,8 +4,8 @@ import pickle
 import uuid
 from mtcnn import MTCNN
 # from keras_facenet import FaceNet
-from keras.layers import TFSMLayer
-from keras import Model, Input
+from tensorflow.keras.layers import TFSMLayer
+from tensorflow.keras import Model, Input
 
 # Configuration
 REQUIRED_SIZE = (160, 160)
